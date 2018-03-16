@@ -90,11 +90,12 @@ img {
 */
 
 h1, h2, h3 {
-    font-family: Whatever;
+    font-family: "Whatever", Georgia, sans-serif;
     color: #17181A;
 }
 
 h1 {
+    font-family: 'Playfair Display', serif;
     font-size: 36px;
     line-height: 40px;
     margin: 0 0 24px;
