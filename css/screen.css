@@ -53,6 +53,26 @@ html {
 body {
     max-width: 42em;
     margin: 0 auto;
+    +
+}
+
+/*
+    Components: Author
+ */
+
+.c-author {
+    display: flex;
+    align-items: center;
+}
+
+.c-author__image {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.c-author__caption {
+    padding-top: 0;
 }
 
 /*
@@ -154,7 +174,6 @@ figcaption {
     font-size: 12px;
     line-height: 16px;
     padding-top: 8px;
-    color: Grey;
 }
 
 hr {
